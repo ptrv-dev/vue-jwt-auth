@@ -14,4 +14,36 @@ body {
 .container {
   max-width: 60rem;
   margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+.header {
+  padding: 1rem 0;
+}
+.header .container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.form {
+  border: 1px dashed gray;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 2rem 0;
+  gap: 1rem;
+}
+.form__field {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.form__field input {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+.form button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
 }
