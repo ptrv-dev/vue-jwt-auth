@@ -4,11 +4,12 @@ import App from './App.vue';
 
 import './style.css';
 
-import { IndexPage, LoginPage } from './pages';
+import { IndexPage, LoginPage, RegistrationPage } from './pages';
 
 const routes = [
   { path: '/', component: IndexPage },
   { path: '/login', component: LoginPage },
+  { path: '/registration', component: RegistrationPage },
 ];
 
 const router = createRouter({
